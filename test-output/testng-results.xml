@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T12:33:53 GMT-08:00" name="Default suite" finished-at="2023-11-10T12:33:55 GMT-08:00" duration-ms="2723">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T12:33:53 GMT-08:00" name="Default test" finished-at="2023-11-10T12:33:55 GMT-08:00" duration-ms="2723">
+      <class name="studentsDb.StudentsCrud">
+        <test-method signature="CreateUser()[pri:1, instance:studentsDb.StudentsCrud@1151e434]" started-at="2023-11-10T12:33:53 GMT-08:00" name="CreateUser" finished-at="2023-11-10T12:33:55 GMT-08:00" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUser -->
+        <test-method signature="updateUser()[pri:2, instance:studentsDb.StudentsCrud@1151e434]" started-at="2023-11-10T12:33:55 GMT-08:00" name="updateUser" finished-at="2023-11-10T12:33:55 GMT-08:00" depends-on-methods="studentsDb.StudentsCrud.CreateUser" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="getUser()[pri:3, instance:studentsDb.StudentsCrud@1151e434]" started-at="2023-11-10T12:33:55 GMT-08:00" name="getUser" finished-at="2023-11-10T12:33:55 GMT-08:00" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="delete()[pri:4, instance:studentsDb.StudentsCrud@1151e434]" started-at="2023-11-10T12:33:55 GMT-08:00" name="delete" finished-at="2023-11-10T12:33:55 GMT-08:00" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="getAllUser()[pri:5, instance:studentsDb.StudentsCrud@1151e434]" started-at="2023-11-10T12:33:55 GMT-08:00" name="getAllUser" finished-at="2023-11-10T12:33:55 GMT-08:00" depends-on-methods="studentsDb.StudentsCrud.delete" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUser -->
+      </class> <!-- studentsDb.StudentsCrud -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
