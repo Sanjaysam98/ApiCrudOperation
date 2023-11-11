@@ -1,0 +1,15 @@
+Rest Assured Framework
+---------------------------
+
+Dependencies
+-------------
+1) rest assured
+2) json path 
+3) json
+4) testNg
+5) scribe-java-apis
+6) json-schema-validator
+7) java faker
+8) extent reports
+9) poi
+10) poi-ooxml
